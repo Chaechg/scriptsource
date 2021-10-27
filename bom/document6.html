@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <img src="" alt="" />
+    <script>
+      window.onload = function () {
+        //img 태그 생성 후 속성 채우기 - src, alt..
+        let img = document.createElement("img");
+
+        img.setAttribute("src", "rock.png");
+        img.setAttribute("alt", "주먹");
+
+        // img.src = "rock.png";
+        // img.alt = "설명";
+
+        document.body.appendChild(img);
+      };
+    </script>
+  </body>
+</html>
